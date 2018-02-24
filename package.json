@@ -1,0 +1,17 @@
+{
+  "name": "montecrypto",
+  "version": "1.0.0",
+  "description": "rearranges those pesky code words",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=*,-node* nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Derek Campbell",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "shuffle-array": "^1.0.1",
+    "vorpal": "^1.12.0"
+  }
+}
