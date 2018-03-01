@@ -83,6 +83,7 @@ module.exports = function MonteCrypto(){
     let enigmaCopy = shuffle(enigmaCodes, {copy: true});
     let rooms = [];
     let passwordText = "";
+    passwordText += "+^" + (parseInt(position)+1) + "^";
     for(let enigmaIndex in enigmaCopy){
       let enigma = enigmaCopy[enigmaIndex];
       rooms.push(enigma.roomName);

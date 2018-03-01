@@ -14,9 +14,6 @@ In order to run this code you need:
     + `093844609550582231725359`
 3. I assume that there is no way to know if you must use the translated or english word or original world
 
-### Edit to my assumptions
-As per [Game Detectives Wiki page on this](wiki.gamedetectives.net/index.php?title=MonteCrypto_-_The_Bitcoin_Enigma) there are more than 3 enima words starting with 9, so unless the enigma words / numbers are wrong, this premise fails. However, I'll be updating the code when I know more
-
 ## How to use this program
 1. First clone this repo by downloading or running (if you have git installed): ` git clone https://derek-campbell-e@github.com/derek-campbell-e/montecrypto-btcrecovery.git `
 2. cd into that directory 
